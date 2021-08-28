@@ -1,0 +1,20 @@
+.container {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid lightgray;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-family: Quicksand, sans-serif;
+}
+
+.item {
+  margin: 0 16px;
+}

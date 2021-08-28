@@ -1,0 +1,36 @@
+.users {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.user {
+  flex-grow: 1;
+  cursor: pointer;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid lightgray;
+  transition: 300ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.user:hover {
+  box-shadow: 2px 2px 8px lightgray;
+}
+
+@media screen and (max-width: 768px) {
+  .users {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 540px) {
+  .users {
+    grid-template-columns: 1fr;
+  }
+}
