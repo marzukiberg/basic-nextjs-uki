@@ -6,13 +6,19 @@ const Header = () => {
     <header className={styles.container}>
       <ul className={styles.list}>
         <li>
-          <Link href="/"><a className={styles.item}>Home</a></Link>
+          <Link href="/">
+            <a className={styles.item}>Home</a>
+          </Link>
         </li>
         <li>
-          <Link href="/blog"><a className={styles.item}>Blog</a></Link>
+          <Link href="/blog">
+            <a className={styles.item}>Blog</a>
+          </Link>
         </li>
         <li>
-          <Link href="/users"><a className={styles.item}>Users</a></Link>
+          <Link href="/users">
+            <a className={styles.item}>Users</a>
+          </Link>
         </li>
       </ul>
     </header>

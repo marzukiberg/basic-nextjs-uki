@@ -24,6 +24,5 @@
         "arrow-body-style": "off",
         "react/jsx-indent": "off",
         "linebreak-style": "off",
-        "react/react-in-jsx-scope": "off"
     }
 }
